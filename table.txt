@@ -1,0 +1,10 @@
+Algorithme TableMultiplication
+Variables
+    n, i : Entier
+Début
+    Ecrire("Quelle table de multiplication voulez-vous ?")
+    Lire(n)
+    Pour i de 1 à 10 Faire
+        Ecrire( n,  " x " ,  i, " = ",  n * i)
+    FinPour
+Fin

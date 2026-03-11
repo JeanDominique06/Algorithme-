@@ -1,0 +1,16 @@
+Algorithme affichage
+variable
+        n: entier
+Début
+	ecrire("Entrez un nombre: ")
+	lire(n)
+	si(n mod 3 = 0)alors
+	    ecrire("C'est un multiple de 3." )
+	 finsi
+	 si(n mod 5 = 0)alors
+	     ecrire("C'est un multiple de 5.")
+	  finsi
+	  si((n mod 3 = 0) ET (n mod 5 = 0))alors
+	      ecrire("C'est une multiple des 3 et 5.'")
+	   finsi
+Fin

@@ -1,0 +1,11 @@
+Algorithme multiplication
+variable
+     a,b,m:entier
+Début
+	ecrire('Entrez la valeur de a: ')
+	lire(a)
+	ecrire('Entrez la valeur de b: ')
+	lire(b)
+	m<-a*b
+	écrire(a, '*' , b, '=' ,  m)
+Fin

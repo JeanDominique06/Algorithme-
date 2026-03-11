@@ -1,0 +1,26 @@
+Algorithme PositifsNegatifsNuls
+Variables
+    i, n, positifs, negatifs, nuls : Entier
+Début
+    positifs ← 0
+    negatifs ← 0
+    nuls ← 0
+    
+    Pour i de 1 à 4 Faire
+        Ecrire("Entrez le nombre n°", i, " :")
+        Lire(n)
+        
+        Si (n > 0) Alors
+            positifs ← positifs + 1
+        SinonSi (n < 0) Alors
+            negatifs ← negatifs + 1
+        Sinon
+            nuls ← nuls + 1
+        FinSi
+    FinPour
+    
+    Ecrire("Nombres positifs : ", positifs)
+    ecrire("")
+    Ecrire("Nombres négatifs : ", negatifs)
+    Ecrire("Nombres nuls : ", nuls)
+Fin

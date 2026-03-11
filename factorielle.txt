@@ -1,0 +1,15 @@
+Algorithme fa
+variable
+        n,i,fact: entier
+Début
+	  ecrire('Entrez un nombre: ')
+	  lire(n)
+	  fact<-1
+	  si(n=0)alors
+	      ecrire('Factoriel de 0 est 1.')
+	  finsi
+	  pour i de 1 à n faire
+	  	      fact<-fact*i
+	  finpour
+	  ecrire(n ,'!=' ,fact)
+Fin

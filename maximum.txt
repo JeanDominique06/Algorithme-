@@ -1,0 +1,19 @@
+Algorithme maximum
+variable
+    a,b,c,max: entier
+Début
+	ecrire('Entrez la valeur de a:	')
+	lire(a)
+	ecrire('Entrez la valeur de b: ')
+	lire(b)
+	ecrire('Entrez la valeur de c: ')
+	lire(c)
+	max<-a
+	si(b>max)alors
+	    max<-b
+	 finsi
+	 si(c>max)alors
+	    max<-c
+	 finsi
+	   ecrire('Maximum des trois nombres est = ',max)
+Fin

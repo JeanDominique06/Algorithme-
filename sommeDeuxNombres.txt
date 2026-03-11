@@ -1,0 +1,11 @@
+Algorithme sommeDeuxNombres
+Variable
+	a, b, som: entier
+Début
+	écrire('Entrez un nombre a: ')
+	lire(a)
+	écrire('Entrez un nombre b: ')
+	lire(b)
+	som <- a + b
+	écrire(a, ' + ', b, ' = ', som)
+Fin

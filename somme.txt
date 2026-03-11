@@ -1,0 +1,12 @@
+Algorithme somme
+variable
+        n,i,somme: entier
+Début
+	  ecrire("Entrez un nombre: ")
+	  lire(n)
+	  somme<-0
+	  pour i de 0 à n faire
+	  	      somme<-somme + i
+	  finpour
+	  ecrire("la somme des " ,n," premiers sont= ",somme)
+Fin

@@ -1,0 +1,11 @@
+Algorithme division
+variable
+    a,b,d: reel
+Début
+	ecrire('Entrez la valeur de a: ')
+	lire(a)
+	ecrire('Entrez la valeur de b: ')
+	lire(b)
+	d<-a/b
+	ecrire(a, '/', b, '=' , d)
+Fin

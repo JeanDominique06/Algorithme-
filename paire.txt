@@ -1,0 +1,12 @@
+Algorithme paire
+variable
+   a: entier
+Début
+	ecrire('Entrez la valeur de a: ')
+	lire(a)
+	si(a/2) alors
+	    ecrire('le nombre paire')
+	   sinon
+	     ecrire('le nombre impair')
+	 finsi
+Fin

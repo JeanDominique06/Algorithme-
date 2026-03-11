@@ -1,0 +1,9 @@
+Algorithme surfaceducarre
+variable
+    c,s:reel
+Début
+    ecrire('Entrez la valeur du coté: ')
+    lire(c)
+    s<-c*c*c*c
+    ecrire(c, '*', c, '*', c, '*', c, '=' , s)
+Fin

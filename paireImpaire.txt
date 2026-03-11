@@ -1,0 +1,12 @@
+Algorithme paireImpaire
+variable
+   n,i: entier
+Début
+	ecrire('Entrez un nombre : ')
+	lire(n)
+		    si(n mod 2 = 0) alors
+		       ecrire(n, 'est pair')
+		     sinon
+		        ecrire(n, 'est impaire')
+		   finsi
+Fin

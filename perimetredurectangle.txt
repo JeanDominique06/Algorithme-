@@ -1,0 +1,11 @@
+Algorithme perimetredurectangle
+variable
+n, m, p: reel
+Début
+	ecrire('Entrez la valeur du longueur: ')
+	lire(n)
+	ecrire('Entrez la valeur de largeur : ')
+	lire(m)
+	p<-(n+m)/2
+	ecrire(p)
+Fin
