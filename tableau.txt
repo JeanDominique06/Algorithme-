@@ -1,0 +1,65 @@
+Algorithme tab
+variable 
+   s,m,n,i,j: entier
+   posimin,posimax: entier
+   min,max: entier
+   tab: tableau  [1000] de entier
+   temp: entier
+debut
+	ecrire("Entrez la valeur de nombre positif: ")
+	lire(n)
+	tantque(n<=0)faire
+	    ecrire("Erreur, entrez: ")
+	    lire(n)
+	 fintantque
+	 pour i de 1 à n faire
+	 	     tab[i]<-i
+	 finpour
+	 s<-0
+	 m<-0
+	 min<-tab[1]
+	 max<-tab[1]
+	 posimax<-1
+	 posimin<-1
+	 pour i de 1 à n faire
+	 	     s<-s+tab[i]
+	 	     si(tab[i]>max)alors
+	 	          max<-tab[i]
+	 	          posimax<-i
+	 	      finsi
+	 	      si(tab[i]<min)alors
+	 	          min<-tab[i]
+	 	          posimin<-i
+	 	      finsi
+	 finpour
+	 m<-s/n
+	 pour i de 1 à n faire
+	 	     tab[i]<-i
+	 finpour
+	 ecrire("")
+    pour i de 1 à n faire
+	 	     ecrire( "\ntab[", i, "] = " , tab[i])
+	 finpour
+	 ecrire("")
+	 ecrire("\nsomme est:",s)
+	 ecrire("\nmoyenne est :",m)
+	 ecrire("\nmaximum est:",max)
+	 ecrire("\nMinimum est:",min)
+	 ecrire("\nposition Minimum est:",posimin)
+	 ecrire("\nposition maximum est :",posimax)
+	 pour i de 1 à n-1 faire
+	 	     pour j de 1 à n-1 faire
+	 	     	 	         si(tab[j]<tab[j+1]) alors
+	 	     	 	            temp<-tab[j]
+	 	     	 	            tab[j]<-tab[j+1]
+	 	     	 	            tab[j+1]<-temp
+	 	     	 	         finsi
+	 	     finpour
+	 finpour
+	 ecrire("")
+	 ecrire("\nTriage décroissant est: ")
+	 pour i de 1 à n faire
+	 	     ecrire("\ntab[" , i ,"] = ",tab[i])
+	 finpour
+	    
+Fin
